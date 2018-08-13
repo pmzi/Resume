@@ -6,12 +6,13 @@ html,body{
 }
 body{
     font-size: 16px;
+    font-family: 'Raleway';
 }
 #wrapper{
+    line-height: 2.2rem;
     width: 100%;
     min-height: 100%;
     background-color: white;
-    padding-top: 2rem;
     box-sizing: border-box;
 
     display: flex;
@@ -22,10 +23,10 @@ body{
     width: 100%;
     background-color: cornflowerblue;
     color: white;
-    flex-basis: 6rem;
-    line-height: 6rem;
+    flex-basis: 4rem;
+    line-height: 4rem;
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
 }
 #mainContent{
     width: 100%;
@@ -41,7 +42,7 @@ body{
 #mainContent>aside .asideSection{
     width: 100%;
     min-height: 10rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
 #mainContent>aside .asideSection>header{
     color: cornflowerblue;
@@ -49,6 +50,7 @@ body{
 }
 #mainContent>aside .asideSection>div{
     padding-left: 2rem;
+    padding-right: 1rem;
     box-sizing: border-box;
 }
 #mainContent>aside .asideSection>div ul{
@@ -60,7 +62,7 @@ body{
     box-sizing: border-box;
 }
 #mainContent>main .section{
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 #mainContent>main .section>header{
     height: 4rem;
@@ -70,9 +72,10 @@ body{
 }
 #mainContent>main .section>.sectionContent{
     min-height: 10rem;
+    margin-top: 1rem;
 }
 #mainContent>main .section>.sectionContent>header{
-    font-weight: bold;
-    height: 4rem;
-    line-height: 4rem;
+    text-decoration: underline;
+    height: 3rem;
+    line-height: 3rem;
 }
