@@ -1,0 +1,78 @@
+html,body{
+    height: 100%;
+    background-color: whitesmoke;
+    margin: 0px;
+    font-size: 10px;
+}
+body{
+    font-size: 16px;
+}
+#wrapper{
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    padding-top: 2rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+}
+#wrapper>header{
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    flex-basis: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    font-size: 3.2rem;
+}
+#mainContent{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+}
+#mainContent>aside{
+    flex-basis: 30rem;
+    border-right: 1.5rem solid cornflowerblue;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+#mainContent>aside .asideSection{
+    width: 100%;
+    min-height: 10rem;
+    margin-top: 6rem;
+}
+#mainContent>aside .asideSection>header{
+    color: cornflowerblue;
+    font-size: 2.6rem;
+}
+#mainContent>aside .asideSection>div{
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+#mainContent>aside .asideSection>div ul{
+    padding-left: 2rem;
+}
+#mainContent>main{
+    flex-grow: 1;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+#mainContent>main .section{
+    margin-top: 6rem;
+}
+#mainContent>main .section>header{
+    height: 4rem;
+    line-height: 4rem;
+    color: cornflowerblue;
+    font-size: 2.6rem;
+}
+#mainContent>main .section>.sectionContent{
+    min-height: 10rem;
+}
+#mainContent>main .section>.sectionContent>header{
+    font-weight: bold;
+    height: 4rem;
+    line-height: 4rem;
+}
